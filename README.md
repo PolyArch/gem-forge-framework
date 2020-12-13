@@ -1,4 +1,4 @@
-# gem-forge-stack
+# gem-forge-framework
 
 This is the top level of Gem Forge framework. It is used in these work:
 
