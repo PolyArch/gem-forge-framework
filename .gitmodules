@@ -1,0 +1,15 @@
+[submodule "llvm"]
+	path = llvm
+	url = git@github.com:PolyArch/gem-forge-llvm.git
+[submodule "transform"]
+	path = transform
+	url = git@github.com:PolyArch/gem-forge-transform.git
+[submodule "gem5"]
+	path = gem5
+	url = git@github.com:PolyArch/gem-forge-gem5.git
+[submodule "lib/protobuf"]
+	path = lib/protobuf
+	url = git@github.com:protocolbuffers/protobuf.git
+[submodule "lib/binutils"]
+	path = lib/binutils
+	url = git://sourceware.org/git/binutils-gdb.git
