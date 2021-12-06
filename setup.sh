@@ -27,6 +27,16 @@ make -j $CORES
 cd ../..
 
 echo "#"
+echo "######################## Build DRAMSim3 for GEM5 ####################################"
+echo "#"
+cd gem5/ext/dramsim3/DRAMsim3
+mkdir -p build 
+cd build
+cmake ..
+make -j $CORES
+cd ../../../../..
+
+echo "#"
 echo "######################## Build GemForge GEM5 ####################################"
 echo "#"
 cd gem5
