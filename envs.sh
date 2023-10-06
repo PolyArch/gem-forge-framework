@@ -1,7 +1,8 @@
 export GEM_FORGE_TOP=$(pwd)
-export CORES=8
+export CORES=$(nproc --all)
 # You can change this to store result to different place.
 export GEM_FORGE_RESULT_PATH=$GEM_FORGE_TOP/result
+export GEM_FORGE_BENCHMARK_PATH=$GEM_FORGE_TOP/benchmarks
 
 export LLVM_SRC_LIB_PATH=$GEM_FORGE_TOP/llvm/llvm/lib
 export LLVM_DEBUG_INSTALL_PATH=$GEM_FORGE_TOP/llvm/install-debug

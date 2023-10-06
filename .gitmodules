@@ -13,3 +13,18 @@
 [submodule "lib/binutils"]
 	path = lib/binutils
 	url = git://sourceware.org/git/binutils-gdb.git
+[submodule "benchmarks/gapbs"]
+	path = benchmarks/gapbs
+	url = git@github.com:PolyArch/gem-forge-gapbs.git
+[submodule "benchmarks/rodinia"]
+	path = benchmarks/rodinia
+	url = git@github.com:PolyArch/gem-forge-rodinia.git
+[submodule "lib/affinity_alloc"]
+	path = lib/affinity_alloc
+	url = git@github.com:PolyArch/gem-forge-affinity-alloc.git
+[submodule "driver"]
+	path = driver
+	url = git@github.com:PolyArch/gem-forge-script.git
+[submodule "lib/openlibm"]
+	path = lib/openlibm
+	url = git@github.com:JuliaMath/openlibm.git
